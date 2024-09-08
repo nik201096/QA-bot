@@ -1,0 +1,93 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark background */
+    color: #ff8c00; /* Orange text color */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the content */
+.container {
+    background: #333333; /* Slightly lighter background for containers */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Add some shadow for depth */
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Headings */
+h1, h2 {
+    color: #ff8c00; /* Orange color for headings */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Forms styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="file"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #555555; /* Darker border for file input */
+    border-radius: 5px;
+    background-color: #222222; /* Darker input background */
+    color: #ff8c00; /* Orange text */
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #555555; /* Darker border for text input */
+    border-radius: 5px;
+    background-color: #222222; /* Darker input background */
+    color: #ff8c00; /* Orange text */
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #ff8c00; /* Orange background for submit button */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #e67e00; /* Slightly darker orange on hover */
+}
+
+/* Result content box */
+.result-content {
+    background: #222222; /* Darker background for result content */
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Light shadow for result box */
+}
+
+/* Button styling */
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff8c00; /* Orange background for buttons */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+a.button:hover {
+    background: #e67e00; /* Slightly darker orange on hover */
+}
