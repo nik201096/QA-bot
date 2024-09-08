@@ -28,15 +28,6 @@ QA-bot is a question-answering system that interacts with uploaded documents in 
 * **Query understanding:** [Explain how the QA-bot understands user queries]
 * **Response generation:** [Describe the process of generating responses based on retrieved information]
 
-**Contributing**
-
-We welcome contributions to QA-bot. If you'd like to contribute, please follow these guidelines:
-
-1. **Fork the repository.**
-2. **Create a new branch.**
-3. **Make your changes.**
-4. **Submit a pull request.**
-
 **License**
 
 QA-bot is licensed under the [MIT License](https://opensource.org/licenses/MIT).
